@@ -1,0 +1,362 @@
+<div class="centerColAlign" id="centerCol">
+ <div class="celwidget" data-cel-widget="magazineTitle" data-csa-c-id="lz20e4-vh18cf-o2obpx-dk0zun" data-feature-name="magazineTitle" id="magazineTitle">
+  <!-- Copied from .../title/common.jsp , added byline text -->
+  <div class="a-section a-spacing-none" id="titleSection">
+   <h1 class="a-size-large a-spacing-none" id="title">
+    <span class="a-size-large" id="productTitle">
+     Gridiron Strategies
+     <span class="a-size-medium a-color-secondary">
+      Print Magazine
+     </span>
+    </span>
+   </h1>
+   <!-- Taken from https://code.amazon.com/packages/DetailPageEbooksTemplates/blobs/dpx-release/--/views/amazon/detailpage/templates/jsp/features/bylineInfo/ebooksBylineInfo.jsp -->
+   <div class="a-section a-spacing-micro bylineHidden feature" data-cel-widget="bylineInfo" id="bylineInfo">
+    <span class="author notFaded" data-width="">
+     <a class="a-link-normal" href="/s/ref=dp_byline_sr_all_1?ie=UTF8&amp;search-alias=&amp;field-keywords=L+C+Clark+Publishing+Co+Inc">
+      L C Clark Publishing Co Inc
+     </a>
+    </span>
+   </div>
+  </div>
+ </div>
+ <div class="celwidget" data-cel-widget="averageCustomerReviews_feature_div" data-csa-c-id="33wpq3-xhgcrg-17yni3-vvosio" data-feature-name="averageCustomerReviews" id="averageCustomerReviews_feature_div">
+  <style type="text/css">
+   /*
+* Fix for UDP-1061. Average customer reviews has a small extra line on hover
+* https://omni-grok.amazon.com/xref/src/appgroup/websiteTemplates/retail/SoftlinesDetailPageAssets/udp-intl-lock/src/legacy.css?indexName=WebsiteTemplates#40
+*/
+.noUnderline a:hover {
+text-decoration: none;
+}
+  </style>
+ </div>
+ <div class="celwidget" data-cel-widget="MediaMatrix" data-csa-c-id="y44q87-29mahb-m2hijo-my1l8w" data-feature-name="MediaMatrix" id="MediaMatrix">
+  <div class="a-section" id="all-offers-display">
+   <div class="a-spinner-wrapper aok-hidden" id="all-offers-display-spinner">
+    <span class="a-spinner a-spinner-medium">
+    </span>
+   </div>
+   <form action="" autocomplete="off" class="aok-hidden all-offers-display-params" method="get">
+    <input id="all-offers-display-weblab-treatment" name="" type="hidden"/>
+    <input id="all-offers-display-reload-param" name="" type="hidden" value="true"/>
+    <input data-asin="B00006KG2U" data-m="" data-pinnedofferhash="" data-qid="1614191749" data-smid="" data-sourcecustomerorglistid="" data-sourcecustomerorglistitemid="" data-sr="1-3486" id="all-offers-display-params" name="" type="hidden"/>
+    <input id="all-offers-display-is-customizable-asin" name="" type="hidden" value="false"/>
+   </form>
+  </div>
+  <span class="a-declarative" data-action="close-all-offers-display" data-close-all-offers-display="{}">
+   <div class="a-section aok-hidden aod-darken-background" id="aod-background">
+   </div>
+  </span>
+  <script type="application/javascript">
+   P.when("A", "load").execute("aod-assets-loaded", function(A){
+function logAssetsNotLoaded() {
+if (window.ueLogError) {
+var customError = { message: 'Failed to load AOD assets for WDG: magazine_display_on_website, Device: web' };
+var additionalInfo = {
+logLevel : 'WARN',
+attribution : 'aod_assets_not_loaded'
+};
+ueLogError (customError, additionalInfo);
+}
+if (window.ue && window.ue.count) {
+window.ue.count("aod-assets-not-loaded", 1);
+}
+}
+function verifyAssetsLoaded() {
+var assetsLoadedPageState = A.state('aod:assetsLoaded');
+var logAssetsNotLoadedState = A.state('aod:logAssetsNotLoaded');
+if((assetsLoadedPageState == null || !assetsLoadedPageState.isAodAssetsLoaded)
+&& (logAssetsNotLoadedState == null || !logAssetsNotLoadedState.isAodAssetsNotLoadedLogged)) {
+A.state('aod:logAssetsNotLoaded', {isAodAssetsNotLoadedLogged: true});
+logAssetsNotLoaded();
+}
+}
+setTimeout(verifyAssetsLoaded, 50000)
+});
+  </script>
+  <div class="a-section a-spacing-large responsive" id="formats">
+   <script data-a-state='{"key":"mediamatrix-saf"}' type="a-state">
+    {"hideEdition":true,"editionCount":0}
+   </script>
+   <a class="a-size-small a-spacing-small a-spacing-top-micro a-link-normal a-link-expander" href="javascript:void(0)">
+    <i class="a-icon a-icon-arrow" id="formatsIcon" role="presentation">
+    </i>
+    <span class="tmmShowPrompt" id="showMoreFormatsPrompt">
+     See all  formats and editions
+    </span>
+    <span class="tmmHidePrompt" id="hideMoreFormatsPrompt">
+     Hide other formats and editions
+    </span>
+   </a>
+   <div class="a-section a-spacing-base a-spacing-top-small a-size-mini" id="twister">
+    <table class="a-normal a-spacing-none title">
+     <tbody>
+      <tr>
+       <td class="dp-title-col">
+       </td>
+       <td class="a-color-secondary a-text-right dp-price-col">
+        <div class="a-fixed-right-grid">
+         <div class="a-fixed-right-grid-inner" style="padding-right:50px">
+          <div class="a-fixed-right-grid-col a-col-left" style="padding-right:2.5%;float:left;">
+           Price
+          </div>
+          <div class="a-fixed-right-grid-col a-col-right" style="width:50px;margin-right:-50px;float:left;">
+          </div>
+         </div>
+        </div>
+       </td>
+       <td class="a-color-secondary a-text-right dp-new-col">
+        New from
+       </td>
+       <td class="a-color-secondary a-text-right dp-used-col">
+        Used from
+       </td>
+      </tr>
+     </tbody>
+    </table>
+    <div class="hr selected-row">
+    </div>
+    <div class="top-level selected-row">
+     <span class="a-declarative" data-action="tmm-see-more-editions-click" data-tmm-see-more-editions-click='{"metabindingPlaceHolder":"0","metabindingPlaceHolderState":"0","metabindingUrl":"#"}' id="declarative_0">
+      <table class="a-normal a-spacing-none">
+       <tbody>
+        <tr>
+         <td class="dp-title-col">
+          <!-- Do not show expander when DVD_redesign weblab is in treatment -->
+          <a class="empty-expander title-expander" style="vertical-align:middle;">
+           <span class="metabinding-expander">
+           </span>
+          </a>
+          <span class="tmmErrorClass displayNone" id="tmmErrorDiv_0">
+           <div aria-live="assertive" class="a-box a-alert-inline a-alert-inline-error" role="alert">
+            <div class="a-box-inner a-alert-container">
+             <i class="a-icon a-icon-alert">
+             </i>
+             <div class="a-alert-content">
+              <span>
+               "Please retry"
+              </span>
+             </div>
+            </div>
+           </div>
+          </span>
+         </td>
+         <td class="a-text-right dp-price-col">
+          <div class="a-fixed-right-grid">
+           <div class="a-fixed-right-grid-inner" style="padding-right:50px">
+            <div class="a-fixed-right-grid-col a-col-left" style="padding-right:2.5%;float:left;">
+             <span class="a-size-small a-color-price">
+              $49.95
+             </span>
+            </div>
+            <div class="a-fixed-right-grid-col a-col-right" style="width:50px;margin-right:-50px;float:left;">
+             <span class="badge-slot" id="primeSlot">
+              <div style="display:inline-block;">
+              </div>
+             </span>
+            </div>
+           </div>
+          </div>
+         </td>
+         <td class="a-color-tertiary a-text-right dp-new-col">
+          —
+         </td>
+         <td class="a-color-tertiary a-text-right dp-used-col">
+          —
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </span>
+    </div>
+    <div class="second-level" id="metabinding_row_top_0">
+    </div>
+    <div class="second-level" id="metabinding_row_bottom_0">
+    </div>
+    <script data-a-state='{"key":"mediamatrix-state"}' type="a-state">
+     {"isAjaxInProgress_0":"0","url_0":"/gp/media-matrix/fetch-DPX-expansion-data.html/ref=tmm_other_meta_binding_metabinding_expansion_0?ie=UTF8&amp;bindingCount=0&amp;landingAsin=&amp;currencyOfPreference=USD&amp;websiteDisplayGroup=magazine_display_on_website&amp;asin=B00006KG2U&amp;metabinding=other_meta_binding&amp;metabindingIndex=0&amp;qid=1614191749&amp;productTypeDefinition=MAGAZINES&amp;sr=1-3486","isAjaxComplete_0":"0"}
+    </script>
+   </div>
+   <div class="a-row" id="tmmSwatches">
+    <!-- This file is a replica of swatches.jsp
+The only difference we have introduced here is to use absolute paths
+and dynamic includes
+-->
+    <ul class="a-unordered-list a-nostyle a-button-list a-horizontal">
+     <li class="swatchElement selected" data-width="70">
+      <span class="a-list-item">
+       <span class="a-button a-button-selected a-spacing-mini a-button-toggle format" id="a-autoid-3">
+        <span class="a-button-inner">
+         <a class="a-button-text" href="javascript:void(0)" id="a-autoid-3-announce" role="button">
+          <span>
+           Print
+          </span>
+          <br/>
+          <span class="a-color-base">
+           <span class="a-size-base a-color-price a-color-price">
+            $49.95
+           </span>
+          </span>
+          <div style="display:inline-block;">
+          </div>
+         </a>
+        </span>
+       </span>
+       <span class="tmm-olp-links">
+       </span>
+       <!--
+Dispaly logic: https://w.amazon.com/bin/view/DBS/Midas/UDP_Migration/ExternalFeatures/Comixology/
+-->
+       <span class="tmm-olp-links">
+       </span>
+      </span>
+     </li>
+    </ul>
+   </div>
+  </div>
+ </div>
+ <div class="celwidget" data-cel-widget="magsQuickPromo_feature_div" data-csa-c-id="sqozcv-xt007e-v7f6je-4oez1p" data-feature-name="magsQuickPromo" id="magsQuickPromo_feature_div">
+ </div>
+ <div class="celwidget" data-cel-widget="magsDigitalBundle_feature_div" data-csa-c-id="8ds0of-vwed0g-8k66o1-7xffku" data-feature-name="magsDigitalBundle" id="magsDigitalBundle_feature_div">
+  <style type="text/css">
+   #learnMoreBundlePopoverBody span li {
+color: #000;
+}
+  </style>
+ </div>
+ <div class="celwidget" data-cel-widget="smileEligibility_feature_div" data-csa-c-id="q0ogn1-ouddby-q1at09-a3dqu3" data-feature-name="smileEligibility" id="smileEligibility_feature_div">
+ </div>
+ <div class="celwidget" data-cel-widget="productOverview_feature_div" data-csa-c-id="wu832s-vijp4y-fun8b0-obca9f" data-feature-name="productOverview" id="productOverview_feature_div">
+ </div>
+ <div class="celwidget" data-cel-widget="magazineDetails_feature_div" data-csa-c-id="53fahe-3ao3vb-2lbogj-pkfq11" data-feature-name="magazineDetails" id="magazineDetails_feature_div">
+  <hr aria-hidden="true" class="a-spacing-mini a-divider-normal"/>
+  <ul class="a-unordered-list a-vertical" id="magazineDetailBullets">
+   <li id="leadtimeMsg">
+    <span class="a-list-item">
+     The first print issue should arrive in 12-16 weeks.
+     <span class="a-declarative" data-a-modal='{"name":"leadtimePopover","header":"Magazine Availability &amp; Shipping"}' data-action="a-modal" id="leadtimePopover">
+      <a class="a-link-normal" href="javascript:void(0)">
+       Details
+      </a>
+     </span>
+     <div class="a-popover-preload" id="a-popover-leadtimePopover">
+      <span id="leadtimePopoverBody">
+       <span>
+        <p>
+         <b>
+          International Addresses:
+         </b>
+         Magazine subscriptions offered at Amazon.com can only be shipped within the 50 United States, APO/FPO address and U.S. Protectorates. We are unable to process magazines to other destinations at this time. Please contact the magazine's publisher for further assistance.
+        </p>
+        <p>
+         <b>
+          When to Expect Your First Issue:
+         </b>
+         Magazine subscriptions ordered at Amazon.com are shipped to you by the magazine's publisher. The first issue of a weekly magazine should arrive within 4-6 weeks of your order. The first issue of a monthly magazine should arrive within 12-16 weeks, unless otherwise noted.
+        </p>
+        <p>
+         Once you've placed an order at Amazon.com, it can take one to two weeks for your subscription to be received and scheduled by the publisher. Your subscription is then added to the publisher's next production cycle and shipped via standard mail. For example, if your monthly subscription was ordered and received by the publisher in November, and the December issue has already shipped, your order may be added to the 
+January mailing. You can find out more information, including how to contact the publisher about your subscription, in Amazon's
+         <a class="a-link-normal" href="https://www.amazon.com/gp/magazines-subscription-manager/manager/ref=msm_dp_avail">
+          Magazine Subscription Manager
+         </a>
+         .
+        </p>
+        <p>
+         <b>
+          Renewing Your Subscription:
+         </b>
+         If you are ordering as a renewal to the same name and address as the current subscription, the publisher will add the Amazon order to your current subscription. For example, if you have 5 issues left and 
+you add 12 through Amazon, you will now have 17 issues left on your subscription. Please note that the expiration date in the
+         <a class="a-link-normal" href="https://www.amazon.com/gp/magazines-subscription-manager/manager/ref=msm_dp_avail">
+          Magazine Subscription Manager
+         </a>
+         will not reflect if you were already on file with the publisher. We will work with the publisher to ensure that you still receive all of the issues left on your subscription.
+        </p>
+        <p>
+         <b>
+          Publication Frequency:
+         </b>
+         Magazines which show "irregular" availability are those which are not published according to a regular schedule. If you place an order for such a magazine, you will receive new issues as soon as they are 
+available.
+        </p>
+       </span>
+      </span>
+     </div>
+    </span>
+   </li>
+   <li id="leadtimeMessage">
+    <span class="a-list-item">
+     Control your subscription settings anytime using Amazon's
+     <a class="a-link-normal" href="https://www.amazon.com/gp/magazines-subscription-manager/manager/ref=msm_dp_manage">
+      Magazine Subscription Manager
+     </a>
+     .
+    </span>
+   </li>
+   <li id="autoRenewMsgNonKahuna">
+    <span class="a-list-item">
+     If you purchase the auto-renewing offer, your subscription will renew at the end of the current term. Before it renews, we will send you a reminder notice stating the term and rate then in effect. Cancel anytime.
+    </span>
+   </li>
+   <li id="shippingMessage">
+    <span class="a-list-item">
+     Currently, item can be shipped only within the U.S.
+    </span>
+   </li>
+   <li id="subscriptionProviderMessage">
+    <span class="a-list-item">
+     This magazine subscription is provided by Magazine Express, Inc.
+    </span>
+   </li>
+  </ul>
+  <style type="text/css">
+   #magsQuickPromo_feature_div{
+overflow:hidden;
+}
+#magsQuickPromo_feature_div .qpImage img{
+margin-right:10px;
+}
+
+#promotions_feature_div .disclaim{
+display:none;
+visibility:hidden;
+}
+#detail-bullets_feature_div .disclaim{
+display:none;
+visibility:hidden;
+}
+#customer-discussions_feature_div .disclaim{
+display:none;
+visibility:hidden;
+}
+  </style>
+  <script>
+   window.onload = function(e){
+var iframe = document.getElementById("product-description-iframe");
+if(iframe != null){
+var disclaimDivs = iframe.contentWindow.document.getElementsByClassName("disclaim");
+if(disclaimDivs != null && disclaimDivs.length != 0){
+disclaimDivs[0].innerHTML = "";
+}
+}
+}
+P.when('A').execute(function(A){
+A.on("a:popover:afterShow:leadtimePopover", function(data){
+A.get('/gp/ls/impress.html/ref=mags_details_leadtime');
+});
+});
+P.when('A').execute(function(A){
+A.on("a:popover:afterShow:shareInfoPopover", function(data){
+A.get('/gp/ls/impress.html/ref=mags_details_shareinfo');
+});
+});
+  </script>
+  <style type="text/css">
+   #va-related-videos-widget_feature_div{
+display:none;
+}
+  </style>
+ </div>
+</div>

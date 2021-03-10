@@ -1,0 +1,543 @@
+<div class="container" role="main" style="margin-top:0;">
+ <header class="u_masthead" role="navigation">
+  <a class="skip-to-content-link" href="#mainContent" tabindex="1">
+   Skip to content
+  </a>
+  <div class="upperNav">
+   <div class="l-container">
+    <ul class="u_nav">
+     <li class="u_nav__item u_nav__item-link u_nav__find-a-library">
+      <a href="/libraries">
+       <span class="icon icon-locate-pin">
+       </span>
+       Find a Library
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+  <div class="mainNav l-container">
+   <a aria-label="Home" class="u_masthead__logo" href="/" tabindex="0">
+    <img alt="OverDrive logo" src="/Content/img/OverDrive_Logo 2020.svg"/>
+   </a>
+   <button aria-label="Open navigation" class="toggle-nav">
+   </button>
+   <div class="u_nav__dropdown hide">
+    <ul class="u_nav pages desktopNav">
+     <li class="u_nav__item u_nav__item-link">
+      <a href="/explore">
+       Browse Collections
+      </a>
+     </li>
+     <li class="u_nav__item u_nav__item-link">
+      <a href="/apps">
+       Apps
+      </a>
+     </li>
+    </ul>
+    <div class="u_search masthead_search" id="search">
+     <form action="/search" class="u_search__form" method="get">
+      <div class="u_search__form-cell-1">
+       <label for="searchInput" id="search-label" style="display: none">
+        Search by title or author
+       </label>
+       <input aria-labelledby="search-label" autocapitalize="off" autocomplete="off" autocorrect="off" class="typeahead u_search__query" id="searchInput" maxlength="250" name="q" placeholder="Search by title or author" spellcheck="false" type="search" value=""/>
+      </div>
+      <div class="u_search__form-cell-3">
+       <button aria-label="Search" class="u_search__submit" onclick="javascript: return submitSearch(this);" tabindex="-1" value="">
+        <span aria-hidden="true" class="icon icon-search">
+        </span>
+       </button>
+      </div>
+     </form>
+    </div>
+    <ul class="u_nav pages mobileNav">
+     <li class="u_nav__item u_nav__item-link">
+      <a href="/explore">
+       Browse Collections
+      </a>
+     </li>
+     <li class="u_nav__item u_nav__item-link">
+      <a href="/apps">
+       Apps
+      </a>
+     </li>
+     <li class="u_nav__item u_nav__item-link">
+      <a href="/account/sign-in?returnUrl=%2Fmedia%2F5997637%2Fhgtv-magazine">
+       Sign In
+      </a>
+     </li>
+    </ul>
+    <ul class="u_nav desktopNav">
+     <li class="u_nav__item u_nav__item-link">
+      <a href="/account/sign-in?returnUrl=%2Fmedia%2F5997637%2Fhgtv-magazine">
+       Sign In
+      </a>
+     </li>
+    </ul>
+    <ul class="u_nav lowerNav">
+     <li class="u_nav__item u_nav__item-link">
+      <a href="/libraries">
+       <span aria-hidden="true" class="icon icon-locate-pin">
+       </span>
+       Find a Library
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+ </header>
+ <!-- OD Survey -->
+ <!-- end OD Survey -->
+ <div class="breadcrumbs-container header">
+  <div class="l-container">
+   <div class="l-row">
+    <ul class="breadcrumbs">
+     <li class="breadcrumbs__crumb">
+      <a aria-label="Navigate to homepage" href="/">
+      </a>
+     </li>
+     <li class="breadcrumbs__crumb">
+      <a aria-label="Navigate to Media" href="/search">
+       Media
+      </a>
+     </li>
+     <li class="breadcrumbs__crumb">
+      <a aria-label="Navigate to HGTV Magazine" href="/media/5997637/hgtv-magazine">
+       HGTV Magazine
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+ </div>
+ <span class="anchor" id="mainContent">
+ </span>
+ <div class="title-hero">
+  <div class="l-container">
+   <div class="title-page__info">
+    <h1 class="title-page__title">
+     HGTV Magazine
+    </h1>
+    <h2 class="title-page__series">
+     magazine
+     <span class="mid">
+      &amp;mid;
+     </span>
+     January/February 2021
+     <span>
+      ·
+     </span>
+     <a href="/series/hgtv-magazine">
+      HGTV Magazine
+     </a>
+    </h2>
+   </div>
+   <div class="title-page__cover">
+    <div class="cover" id="sample-target">
+     <img alt="cover image of HGTV Magazine" data-ga-action="cover" data-id="5997637" data-title="HGTV Magazine" not-data-src="/Content/img/load.gif" onerror="this.onerror = null; this.srcset = ''; this.src = '/media/default-cover-image?title=HGTV%20Magazine';" src="https://img1.od-cdn.com/ImageType-400/11052-1CED/02B/79/{CED02B79-CCF3-47B5-A770-BD61D2E750CF}Img400.jpg" srcset=""/>
+    </div>
+    <div class="title-actions">
+     <div class="add-to-favorites" style="display: none;">
+      <img src="/Content/img/heart.png"/>
+      <p>
+       Add Book To Favorites
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="l-container">
+  <div class="messageContainer">
+   <!-- Page-level messages -->
+  </div>
+  <link href="/bundles/detailsv2css?v=4KIq_VZ-Q1mpsHy6tyjCkV5JmLuQp6zq7UR_16SzZQE1" media="screen" rel="stylesheet" type="text/css"/>
+  <div class="prompt-modal__shade">
+   <div class="prompt-modal">
+    <div class="prompt-modal__close" data-action="close-prompt">
+     <span class="icon icon-delete">
+     </span>
+    </div>
+    <header class="prompt-modal__header">
+     <!--<h1 class="prompt-modal__title">Is this your library?</h1>-->
+     <h1 class="prompt-modal__title">
+      Sign up to save your library
+     </h1>
+     <!-- <h2 class="prompt-modal__subtitle"></h2> -->
+    </header>
+    <div class="prompt-modal__content">
+     <p>
+      With an OverDrive account, you can save your favorite libraries
+       for at-a-glance information about availability.
+      <a href="">
+       Find out more
+      </a>
+      about OverDrive accounts.
+     </p>
+    </div>
+    <!-- <form>
+      <label>Enter something</label>
+      <input type="text" />
+
+      <label>Something else</label>
+      <input type="text" />
+
+    </form> -->
+    <div class="prompt-modal__save-cancel">
+     <button class="btn btn--general-heavy btn--inline">
+      Save
+     </button>
+     <a href="#">
+      Not today
+     </a>
+    </div>
+   </div>
+  </div>
+  <section class="title-page title-page--magazine">
+   <div class="l-row">
+    <div class="title-page__wrapper">
+     <div class="metadata_container">
+      <h3 class="metadata_label">
+       Format
+      </h3>
+      <p class="metadata_text">
+       magazine
+      </p>
+     </div>
+     <div class="metadata_container">
+      <h3 class="metadata_label">
+       Series
+      </h3>
+      <p class="metadata_text">
+       <a aria-label="Search by series, HGTV Magazine" href="/series/hgtv-magazine">
+        HGTV Magazine
+       </a>
+      </p>
+     </div>
+     <div class="metadata_container">
+      <h3 class="metadata_label">
+       Publisher
+      </h3>
+      <p class="metadata_text">
+       <a aria-label="Search by publisher, Hearst" href="/publishers/hearst">
+        Hearst
+       </a>
+      </p>
+     </div>
+     <div class="metadata_container">
+      <h3 class="metadata_label">
+       Share
+      </h3>
+      <div class="social-shares">
+       <a aria-label="Share on Facebook" href="//www.facebook.com/sharer/sharer.php?u=https://www.overdrive.com/media/5997637/hgtv-magazine" target="_blank">
+        <img alt="Facebook logo" src="/Content/img/facebook-icon.png"/>
+       </a>
+       <a aria-label="Share on Twitter" href="//twitter.com/share?text=Start%20Read%20%27HGTV%20Magazine%27%20on%20OverDrive%3A&amp;url=https://www.overdrive.com/media/5997637/hgtv-magazine" target="_blank">       
+        <img alt="Twitter logo" src="/Content/img/twitter-icon.png"/>
+       </a>
+       <a aria-label="Share on Pinterest" href="//www.pinterest.com/pin/create/button/?media=https://img1.od-cdn.com/ImageType-400/11052-1CED/02B/79/{CED02B79-CCF3-47B5-A770-BD61D2E750CF}Img400.jpg&amp;description=Start%20Read%20%27HGTV%20Magazine%27%20on%20OverDrive%3A%20https%3A%2F%2Fwww.overdrive.com%2Fmedia%2F5997637%2Fhgtv-magazine&amp;url=https://www.overdrive.com/media/5997637/hgtv-magazine" target="_blank">
+        <img alt="Pinterest logo" src="/Content/img/pintrest-icon.png"/>
+       </a>
+      </div>
+     </div>
+     <div class="metadata_container">
+      <h3 class="metadata_label">
+       Subjects
+      </h3>
+      <a aria-label="Search by subject, Home &amp; Garden" class="subject_link" href="/subjects/home-garden">
+       <span class="subject_name">
+        Home &amp; Garden
+       </span>
+       <span class="icon icon-arrow-right">
+       </span>
+      </a>
+     </div>
+    </div>
+    <div class="title-page__wrapper-right">
+     <div class="title-page__acquire" id="acquire-bar">
+      <div class="librarySearchBar">
+       <h3>
+        Search for a digital library with this title
+       </h3>
+       <div class="form-container">
+        <form class="library-search-bar__form" style="position: relative;">
+         <label for="inlineLibraryFilter" id="inlineLibraryFilterLabel">
+          Search by city, ZIP code, or library name
+         </label>
+         <input aria-labelledby="inlineLibraryFilterLabel" class="query" id="inlineLibraryFilter" type="search"/>
+         <a class="icon icon-location library-search-bar__locator">
+         </a>
+         <button class="btn btn--general-heavy btn--inline" type="submit" value="">
+          <span class="icon icon-search">
+          </span>
+         </button>
+        </form>
+        <div id="positionResult">
+         <a href="http://en.wikipedia.org/wiki/W3C_Geolocation_API" target="_blank">
+          <small>
+           Learn more about precise location detection
+          </small>
+         </a>
+        </div>
+       </div>
+      </div>
+      <h3 class="librarySearchHeader">
+       Title found at these libraries:
+      </h3>
+      <div class="searchTable-container" id="positionSearchResult">
+       <table class="search-table" id="librariesTableByPosition">
+        <tr class="table-loading">
+         <td>
+          Loading...
+         </td>
+        </tr>
+       </table>
+      </div>
+      <div class="seeMoreLibraries" style="display: none;">
+       <a href="/media/5997637/libraries?slug=hgtv-magazine">
+        View more libraries...
+       </a>
+      </div>
+     </div>
+     <div class="title-page__description">
+      <div class="title-page__blurb short">
+       <p>
+        HGTV Magazine is about real life at home. In every issue you'll find money-saving mini makeovers, simple ways to conquer clutter, smart DIY solutions, time-saving cleaning tricks, and so much more. Plus--see how the HGTV experts really live!
+        <b>
+        </b>
+       </p>
+       <p>
+        come on in!
+        <b>
+        </b>
+       </p>
+       <p>
+        7 things that I’m crushing on this month
+        <b>
+        </b>
+       </p>
+       <p>
+        copy our cover • We’ve rounded up everything you need for the ultimate creation station.
+        <b>
+        </b>
+       </p>
+       <p>
+        blast from the past • We’re strolling down memory lane in honor of our 10th birthday this year. Here’s a look back at our debut issue.
+        <b>
+        </b>
+       </p>
+       <p>
+        wow! what color is that? • Paint shades we love and how to use them.
+        <b>
+        </b>
+       </p>
+       <p>
+        have a nice day • Add cheer to your year with stuff that’s all smiles.
+        <b>
+        </b>
+       </p>
+       <p>
+        if these shelves could talk… • HGTV stars and Instagrammers share the stories and strategies behind their displays. Get ready to shake yours up, room by room—it’s the easiest refresh around!
+        <b>
+        </b>
+       </p>
+       <p>
+        the high/low list • Some dynamic duos with drastically different price tags.
+        <b>
+        </b>
+       </p>
+       <p>
+        GIVE YOUR VANITY more vanity • Creative ways to get the spot where you primp and polish totally ready for its close-up.
+        <b>
+        </b>
+       </p>
+       <p>
+        how bad is it? • Straight answers to scratch-your-head questions.
+        <b>
+        </b>
+       </p>
+       <p>
+        this is the year you’re gonna WIN WINTER • Hacks and how-tos to keep you warm and toasty
+        <b>
+        </b>
+       </p>
+       <p>
+        make cool stuff • A whole year of awesome DIYs is a lot to look forward to… if you can avoid the temptation of trying them all ASAP!
+        <b>
+        </b>
+       </p>
+       <p>
+        A HOUSE TO D.I.Y. FOR • Crafts and custom touches make this home awesome.
+        <b>
+        </b>
+       </p>
+       <p>
+        NOW GET THE LOOK
+        <b>
+        </b>
+       </p>
+       <p>
+        what a dream! • The HGTV Dream Home 2021 in Newport, RI, is all about the good life—look around, get ideas, and enter for a chance to win it.
+        <b>
+        </b>
+       </p>
+       <p>
+        copy the curb appeal • These eye-catching houses are loaded with inspiring ideas.
+        <b>
+        </b>
+       </p>
+       <p>
+        on the menu: pink! pink! AND MORE PINK! • This not-too-sweet pastel kitchen hits the spot.
+        <b>
+        </b>
+       </p>
+       <p>
+        now get the look
+        <b>
+        </b>
+       </p>
+       <p>
+        food + stuff • When you mix veggies with pasta and gooey cheese, everybody wins.
+        <b>
+        </b>
+       </p>
+       <p>
+        it’s coffee o’clock! • Fun finds to make your favorite fix feel even perkier.
+        <b>
+        </b>
+       </p>
+       <p>
+        paint index
+        <b>
+        </b>
+       </p>
+       <p>
+        [sources]
+        <b>
+        </b>
+       </p>
+       <p>
+        HGTV Magazine
+        <b>
+        </b>
+       </p>
+       <p>
+        have an extra-great book club • All the goods for your next reading adventure.
+       </p>
+       <div class="read-more-container">
+        <button class="read-more-button">
+         ...read more
+        </button>
+       </div>
+      </div>
+      <div id="title-page__series">
+      </div>
+      <div class="related-format-title">
+      </div>
+      <div class="mobile-metadata-column">
+       <div class="metadata_container">
+        <h3 class="metadata_label">
+         Format
+        </h3>
+        <p class="metadata_text">
+         magazine
+        </p>
+       </div>
+       <div class="metadata_container">
+        <h3 class="metadata_label">
+         Series
+        </h3>
+        <p class="metadata_text">
+         <a aria-label="Search by series, HGTV Magazine" href="/series/hgtv-magazine">
+          HGTV Magazine
+         </a>
+        </p>
+       </div>
+       <div class="metadata_container">
+        <h3 class="metadata_label">
+         Publisher
+        </h3>
+        <p class="metadata_text">
+         <a aria-label="Search by publisher, Hearst" href="/publishers/hearst">
+          Hearst
+         </a>
+        </p>
+       </div>
+       <div class="metadata_container">
+        <h3 class="metadata_label">
+         Share
+        </h3>
+        <div class="social-shares">
+         <a aria-label="Share on Facebook" href="//www.facebook.com/sharer/sharer.php?u=https://www.overdrive.com/media/5997637/hgtv-magazine" target="_blank">
+          <img alt="Facebook logo" src="/Content/img/facebook-icon.png"/>
+         </a>
+         <a aria-label="Share on Twitter" href="//twitter.com/share?text=Start%20Read%20%27HGTV%20Magazine%27%20on%20OverDrive%3A&amp;url=https://www.overdrive.com/media/5997637/hgtv-magazine" target="_blank">     
+          <img alt="Twitter logo" src="/Content/img/twitter-icon.png"/>
+         </a>
+         <a aria-label="Share on Pinterest" href="//www.pinterest.com/pin/create/button/?media=https://img1.od-cdn.com/ImageType-400/11052-1CED/02B/79/{CED02B79-CCF3-47B5-A770-BD61D2E750CF}Img400.jpg&amp;description=Start%20Read%20%27HGTV%20Magazine%27%20on%20OverDrive%3A%20https%3A%2F%2Fwww.overdrive.com%2Fmedia%2F5997637%2Fhgtv-magazine&amp;url=https://www.overdrive.com/media/5997637/hgtv-magazine" target="_blank">        
+          <img alt="Pinterest logo" src="/Content/img/pintrest-icon.png"/>
+         </a>
+        </div>
+       </div>
+       <div class="metadata_container">
+        <h3 class="metadata_label">
+         Subjects
+        </h3>
+        <a aria-label="Search by subject, Home &amp; Garden" class="subject_link" href="/subjects/home-garden">
+         <span class="subject_name">
+          Home &amp; Garden
+         </span>
+         <span class="icon icon-arrow-right">
+         </span>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <div id="sample-viewer">
+   <div id="sample-header-bar">
+    <div class="l-container">
+     <span id="sample-title">
+      HGTV Magazine
+     </span>
+     <ul id="sample-actions">
+      <li id="sample-fullscreen">
+       <a aria-label="View sample in fullscreen" target="_blank">
+        <i aria-hidden="true" class="icon icon-sample-fullscreen">
+        </i>
+       </a>
+      </li>
+      <li id="sample-viewer-close">
+       <a aria-label="Close" href="">
+        <i aria-hidden="true" class="icon icon-clear">
+        </i>
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div id="sample-embed-bar">
+    <div class="l-container">
+     <div>
+      <label class="sample-embed-directions" for="sample-embed-codearea" id="sample-embed-directions">
+       Copy and paste the code into your website.
+      </label>
+      <textarea aria-labelledby="sample-embed-directions" class="sample-embed-codearea" id="sample-embed-codearea">&lt;div&gt;&lt;script src="https://www.overdrive.com/media/5997637/sample-embed?slug=hgtv-magazine"&gt;&lt;/script&gt;&lt;/div&gt;</textarea>
+     </div>
+    </div>
+   </div>
+   <div class="l-container" data-redirecturl="" id="sample-holder">
+   </div>
+   <div class="sample-viewer-close">
+    <button aria-label="Close">
+     Close
+    </button>
+   </div>
+  </div>
+ </div>
+ <div class="push">
+ </div>
+</div>
